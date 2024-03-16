@@ -58,9 +58,9 @@ const Calculator = () => {
           {currentNumber} {operation} {previousNumber}
         </div>
         <div className="buttons">
-          <button onClick={clearDisplay}>C</button>
           <button onClick={() => addNumber(7)}>7</button>
-          <button onClick={() => addNumber(8)}>8</button><button onClick={() => addNumber(9)}>9</button>
+          <button onClick={() => addNumber(8)}>8</button>
+          <button onClick={() => addNumber(9)}>9</button>
           <button onClick={() => handleOperation('+')}>+</button>
           <button onClick={() => addNumber(4)}>4</button>
           <button onClick={() => addNumber(5)}>5</button>
@@ -70,6 +70,7 @@ const Calculator = () => {
           <button onClick={() => addNumber(2)}>2</button>
           <button onClick={() => addNumber(3)}>3</button>
           <button onClick={() => handleOperation('*')}>*</button>
+          <button onClick={clearDisplay}>C</button>
           <button onClick={() => addNumber(0)}>0</button>
           <button onClick={calculateResult}>=</button>
           <button onClick={() => handleOperation('/')}>/</button>
