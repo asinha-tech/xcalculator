@@ -41,7 +41,7 @@ function App() {
           <button onClick={() => handleInput("7")}>7</button>
           <button onClick={() => handleInput("8")}>8</button>
           <button onClick={() => handleInput("9")}>9</button>
-          <button onClick={() => handleInput("")}></button>
+          <button onClick={() => handleInput("*")}>*</button>
           <button onClick={() => handleInput("0")}>0</button>
           <button onClick={() => calculateResult()}>=</button>
           <button onClick={() => handleInput("/")}>/</button>
