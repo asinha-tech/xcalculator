@@ -45,6 +45,10 @@ button:hover {
   width: 400px;
 }
 
+.calculator {
+  margin: 20px;
+}
+
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 70px);
