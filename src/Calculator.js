@@ -1,3 +1,4 @@
+/* eslint-disable no-eval */
 import "./Calculator.css";
 import React, { useState } from "react";
 
@@ -52,18 +53,6 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // import React, { useState } from 'react';
